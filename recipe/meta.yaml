@@ -41,6 +41,11 @@ about:
   license: BSD 3-Clause
   license_file: licenses/license.txt
   summary: Read and write HDF5 files from Python.
+  description: |
+    H5py uses straightforward NumPy and Python metaphors, like dictionary and
+    NumPy array syntax.
+  doc_url: http://docs.h5py.org
+  dev_url: https://github.com/h5py/h5py
 
 extra:
   recipe-maintainers:
