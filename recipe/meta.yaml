@@ -13,7 +13,7 @@ build:
   number: 1
 
 requirements:
-  build:
+  host:
     - hdf5
     - python
     - setuptools
@@ -21,6 +21,9 @@ requirements:
     - cython
     - six
     - pkgconfig
+
+  build:
+    - {{ compiler('c') }}
 
   run:
     - hdf5
