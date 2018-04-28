@@ -1,0 +1,12 @@
+--- work/setup_build.py.orig	2018-04-28 16:32:54.000000000 -0700
++++ work/setup_build.py	2018-04-28 16:33:08.000000000 -0700
+@@ -48,9 +48,6 @@
+         ('_HDF5USEDLL_', None),
+         ('H5_BUILT_AS_DYNAMIC_LIB', None)
+     ])
+-else:
+-    COMPILER_SETTINGS['include_dirs'].extend(['/opt/local/include', '/usr/local/include'])
+-    COMPILER_SETTINGS['library_dirs'].extend(['/opt/local/include', '/usr/local/include'])
+ 
+ 
+ class h5py_build_ext(build_ext):

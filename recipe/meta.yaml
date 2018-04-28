@@ -10,6 +10,7 @@ source:
   sha256: 55bdefda47c49973ec24384097d18eb5f84797c057aaf0bf0b6b0f7860ad43e7
   patches:
     - 5950dff90cf9d9b6a89e5928c95dda1c68d74131.patch
+    - 0001-Remove-opt-local-and-usr-local-dirs.patch
 
 build:
   number: 1
