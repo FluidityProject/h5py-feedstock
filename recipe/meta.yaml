@@ -8,9 +8,11 @@ source:
   fn: h5py-{{ version }}.tar.gz
   url: https://github.com/h5py/h5py/archive/{{ version }}.tar.gz
   sha256: 55bdefda47c49973ec24384097d18eb5f84797c057aaf0bf0b6b0f7860ad43e7
+  patches:
+    - 5950dff90cf9d9b6a89e5928c95dda1c68d74131.patch
 
 build:
-  number: 0
+  number: 1
 
 requirements:
 
