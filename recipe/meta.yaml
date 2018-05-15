@@ -13,7 +13,7 @@ source:
     - 0001-Remove-opt-local-and-usr-local-dirs.patch
 
 build:
-  number: 1
+  number: 2
 
 requirements:
 
