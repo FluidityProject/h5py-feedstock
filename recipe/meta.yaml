@@ -10,7 +10,7 @@ source:
   sha256: eae41382be28b7264824450ce343dd625f972bedaaa3b0cced284986aabcbaee
 
 build:
-  number: 2
+  number: 3
 
 requirements:
 
@@ -21,13 +21,14 @@ requirements:
     - hdf5
     - python
     - setuptools
-    - numpy
+    - numpy-devel 1.11.*
     - cython
     - six
     - pkgconfig
 
   run:
-    - numpy
+    - hdf5
+    - {{ pin_compatible('numpy') }}
     - python
     - six
     - unittest2    # [py26 or py27]
