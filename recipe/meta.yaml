@@ -28,7 +28,6 @@ requirements:
 
   run:
     - hdf5
-    - {{ pin_compatible('numpy') }}
     - python
     - six
     - unittest2    # [py26 or py27]
