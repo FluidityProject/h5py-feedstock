@@ -36,4 +36,4 @@ fh.close()
 fh = h5py.File('test.h5', 'r')
 fh['/top'].attrs['attr1']
 
-exit(0) if h5py.run_tests().wasSuccessful() else exit(1)
+exit(h5py.run_tests())
