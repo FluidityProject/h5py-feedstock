@@ -18,13 +18,12 @@ requirements:
     - python
     - pip
     - numpy-devel  {{ numpy }}
-    - hdf5
+    - mpi4py
     - cython
     - six
     - pkgconfig
   run:
     - python
-    - hdf5
     - six
     - unittest2  # [py26 or py27]
     - pyreadline  # [win]
